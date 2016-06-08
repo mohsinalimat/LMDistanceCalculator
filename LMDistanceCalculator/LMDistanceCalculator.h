@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*!
  *  LMDistanceCalculator error codes, embedded in NSError.
  */
-typedef NS_OPTIONS(NSUInteger, LMGeocoderErrorCode) {
+typedef NS_OPTIONS(NSUInteger, LMDistanceCalculatorErrorCode) {
     kLMDistanceCalculatorErrorInvalidInput,
     kLMDistanceCalculatorErrorOverLimit,
     kLMDistanceCalculatorErrorInternal,
