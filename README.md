@@ -25,7 +25,7 @@ pod 'LMDistanceCalculator'
 ## Usage
 #### Geometry Distance
 ```ObjC
-CGFloat geometryDistance = [LMDistanceCalculator geometryDistanceFromOrigin:self.origin destination:location.coordinate];
+CGFloat geometryDistance = [LMDistanceCalculator geometryDistanceFromOrigin:origin destination:destination];
 NSLog(@"Geometry Distance: %f", geometryDistance);
 ```
 
