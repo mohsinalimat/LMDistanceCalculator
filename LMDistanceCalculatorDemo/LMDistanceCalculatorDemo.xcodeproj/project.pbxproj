@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C41526E1D067EC600E5DF4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C41526D1D067EC600E5DF4A /* main.m */; };
+		5C4152711D067EC600E5DF4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4152701D067EC600E5DF4A /* AppDelegate.m */; };
+		5C4152741D067EC600E5DF4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4152731D067EC600E5DF4A /* ViewController.m */; };
+		5C4152771D067EC600E5DF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4152751D067EC600E5DF4A /* Main.storyboard */; };
+		5C4152791D067EC600E5DF4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4152781D067EC600E5DF4A /* Assets.xcassets */; };
+		5C41527C1D067EC600E5DF4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C41527A1D067EC600E5DF4A /* LaunchScreen.storyboard */; };
+		5C4152881D067EFD00E5DF4A /* LMDistanceCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4152871D067EFD00E5DF4A /* LMDistanceCalculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C4152691D067EC600E5DF4A /* LMDistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMDistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C41526D1D067EC600E5DF4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C41526F1D067EC600E5DF4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C4152701D067EC600E5DF4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C4152721D067EC600E5DF4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C4152731D067EC600E5DF4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C4152761D067EC600E5DF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C4152781D067EC600E5DF4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C41527B1D067EC600E5DF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C41527D1D067EC600E5DF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4152861D067EFD00E5DF4A /* LMDistanceCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDistanceCalculator.h; sourceTree = "<group>"; };
+		5C4152871D067EFD00E5DF4A /* LMDistanceCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDistanceCalculator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C4152661D067EC600E5DF4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C4152601D067EC600E5DF4A = {
+			isa = PBXGroup;
+			children = (
+				5C4152851D067EF000E5DF4A /* LMDistanceCalculator */,
+				5C41526B1D067EC600E5DF4A /* LMDistanceCalculatorDemo */,
+				5C41526A1D067EC600E5DF4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C41526A1D067EC600E5DF4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4152691D067EC600E5DF4A /* LMDistance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C41526B1D067EC600E5DF4A /* LMDistanceCalculatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5C41526F1D067EC600E5DF4A /* AppDelegate.h */,
+				5C4152701D067EC600E5DF4A /* AppDelegate.m */,
+				5C4152721D067EC600E5DF4A /* ViewController.h */,
+				5C4152731D067EC600E5DF4A /* ViewController.m */,
+				5C4152751D067EC600E5DF4A /* Main.storyboard */,
+				5C41526C1D067EC600E5DF4A /* Supporting Files */,
+			);
+			path = LMDistanceCalculatorDemo;
+			sourceTree = "<group>";
+		};
+		5C41526C1D067EC600E5DF4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C41527D1D067EC600E5DF4A /* Info.plist */,
+				5C4152781D067EC600E5DF4A /* Assets.xcassets */,
+				5C41527A1D067EC600E5DF4A /* LaunchScreen.storyboard */,
+				5C41526D1D067EC600E5DF4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C4152851D067EF000E5DF4A /* LMDistanceCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				5C4152861D067EFD00E5DF4A /* LMDistanceCalculator.h */,
+				5C4152871D067EFD00E5DF4A /* LMDistanceCalculator.m */,
+			);
+			name = LMDistanceCalculator;
+			path = ../LMDistanceCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C4152681D067EC600E5DF4A /* LMDistanceCalculatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4152801D067EC600E5DF4A /* Build configuration list for PBXNativeTarget "LMDistanceCalculatorDemo" */;
+			buildPhases = (
+				5C4152651D067EC600E5DF4A /* Sources */,
+				5C4152661D067EC600E5DF4A /* Frameworks */,
+				5C4152671D067EC600E5DF4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMDistanceCalculatorDemo;
+			productName = LMDistanceCalculatorDemo;
+			productReference = 5C4152691D067EC600E5DF4A /* LMDistance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C4152611D067EC600E5DF4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LMinh;
+				TargetAttributes = {
+					5C4152681D067EC600E5DF4A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5C4152641D067EC600E5DF4A /* Build configuration list for PBXProject "LMDistanceCalculatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C4152601D067EC600E5DF4A;
+			productRefGroup = 5C41526A1D067EC600E5DF4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C4152681D067EC600E5DF4A /* LMDistanceCalculatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C4152671D067EC600E5DF4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C41527C1D067EC600E5DF4A /* LaunchScreen.storyboard in Resources */,
+				5C4152791D067EC600E5DF4A /* Assets.xcassets in Resources */,
+				5C4152771D067EC600E5DF4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C4152651D067EC600E5DF4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4152741D067EC600E5DF4A /* ViewController.m in Sources */,
+				5C4152711D067EC600E5DF4A /* AppDelegate.m in Sources */,
+				5C41526E1D067EC600E5DF4A /* main.m in Sources */,
+				5C4152881D067EFD00E5DF4A /* LMDistanceCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C4152751D067EC600E5DF4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C4152761D067EC600E5DF4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C41527A1D067EC600E5DF4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C41527B1D067EC600E5DF4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C41527E1D067EC600E5DF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C41527F1D067EC600E5DF4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C4152811D067EC600E5DF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LMDistanceCalculatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lminhtm.LMDistanceCalculatorDemo;
+				PRODUCT_NAME = LMDistance;
+			};
+			name = Debug;
+		};
+		5C4152821D067EC600E5DF4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LMDistanceCalculatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lminhtm.LMDistanceCalculatorDemo;
+				PRODUCT_NAME = LMDistance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C4152641D067EC600E5DF4A /* Build configuration list for PBXProject "LMDistanceCalculatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C41527E1D067EC600E5DF4A /* Debug */,
+				5C41527F1D067EC600E5DF4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C4152801D067EC600E5DF4A /* Build configuration list for PBXNativeTarget "LMDistanceCalculatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4152811D067EC600E5DF4A /* Debug */,
+				5C4152821D067EC600E5DF4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C4152611D067EC600E5DF4A /* Project object */;
+}
